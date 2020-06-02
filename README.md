@@ -24,4 +24,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## References
 
-[How to configure basic polices in Azure Active Directory B2C](https://www.youtube.com/watch?v=nWJ3m82536A)
+[How to configure basic polices in Azure Active Directory B2C](https://www.youtube.com/watch?v=nWJ3m82536A) This tutorial guid you to create and configure Azure AD B2C (B2C Tenant, Identity Providers, App Registratoin and User Flow).
+
+[Advanced use cases with Azure Active Directory B2C](https://www.youtube.com/watch?v=-ZmPBuMZY-Y) In this video, you will learn about the advanced use cases of B2C in Microsoft Azure Active Directory.
