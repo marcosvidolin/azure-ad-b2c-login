@@ -1,6 +1,6 @@
 # Angular Azure AD B2C
 
-SPA Azure B2C login demo.
+This is a simple Angular front-end (SPA) that uses Azure Active Directory B2C to authenticate users.
 
 ## Dependencies
 
