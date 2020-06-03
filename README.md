@@ -2,6 +2,10 @@
 
 SPA Azure B2C login demo.
 
+## Dependencies
+
+[msal-angular](https://github.com/AzureAD/microsoft-authentication-library-for-js#readme) Microsoft Authentication Library for Angular
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
