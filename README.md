@@ -4,7 +4,7 @@ This is a simple Angular front-end (SPA) that uses Azure Active Directory B2C to
 
 ## Dependencies
 
-[msal-angular](https://github.com/AzureAD/microsoft-authentication-library-for-js#readme) Microsoft Authentication Library for Angular
+[msal-angular](https://www.npmjs.com/package/@azure/msal-angular) Microsoft Authentication Library for Angular
 
 ## Development server
 
