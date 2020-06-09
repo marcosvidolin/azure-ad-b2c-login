@@ -45,7 +45,7 @@ export const apiConfig: {b2cScopes: string[], webApi: string} = {
       'https://vidolin.onmicrosoft.com/api/b2cdemo.read',
       'https://vidolin.onmicrosoft.com/api/b2cdemo.read'
     ],
-    webApi: 'http://localhost:9000/hello' //'https://vidolin.onmicrosoft.com/api'
+    webApi: 'http://localhost:9000/profile' //'https://vidolin.onmicrosoft.com/api'
 };
 // #endregion
 
@@ -90,7 +90,7 @@ export const tokenRequest: {scopes: string[]} = {
 // #region 4) MSAL-Angular Configuration
 // here you can define the coordinates and required permissions for your protected resources
 export const protectedResourceMap: [string, string[]][] = [
-    [apiConfig.webApi, apiConfig.b2cScopes] // i.e. [https://fabrikamb2chello.azurewebsites.net/hello, ['https://fabrikamb2c.onmicrosoft.com/helloapi/demo.read']]
+    [apiConfig.webApi, apiConfig.b2cScopes]
 ];
 
 /**

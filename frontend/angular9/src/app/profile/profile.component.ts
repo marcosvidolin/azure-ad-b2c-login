@@ -13,7 +13,6 @@ import { apiConfig } from '../app-config';
 export class ProfileComponent implements OnInit {
 
   profile: any;
-  profile2: any;
 
   constructor(private broadcastService: BroadcastService, private authService: MsalService, private http: HttpClient) { }
 
@@ -35,7 +34,6 @@ export class ProfileComponent implements OnInit {
     this.http.get(url).subscribe({
         next: (profile) => {
           this.profile = profile;
-          this.profile2 = JSON.stringify(profile);
         },
         error: (err: AuthError) => {
           // If there is an interaction required error,
