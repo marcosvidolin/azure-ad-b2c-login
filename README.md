@@ -22,4 +22,4 @@ You can know more about each APIs accessing the documentation:
 
 - [Spring Boot API](./backend/java-spring-boot/README.md)
 
-- [Nodejs API](./backend/odejs-express/README.md)
+- [Nodejs API](./backend/nodejs-express/README.md)
