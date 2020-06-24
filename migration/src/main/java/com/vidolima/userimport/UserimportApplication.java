@@ -58,6 +58,11 @@ public class UserimportApplication {
 		user.passwordProfile = pass;
 		user.passwordPolicies = "DisablePasswordExpiration, DisableStrongPassword";
 
+		ObjectIdentity identity = new ObjectIdentity();
+		identity.issuer = "vidolin.onmicrosoft.com";
+		identity.signInType = "emailAddress"; // emailAddress, userName or federated
+		identity.issuerAssignedId = "vidola@gmail.com";
+		
 		return user;
 	}
 
