@@ -20,15 +20,15 @@ export const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.n
  */
 export const b2cPolicies = {
     names: {
-        signUpSignIn: "B2C_1_SignInV2",
-        resetPassword: "b2c_1_reset",
+        signUpSignIn: "B2C_1_SignIn_v2",
+        resetPassword: "B2C_1_PasswordReset_v2",
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://vidolin.b2clogin.com/vidolin.onmicrosoft.com/B2C_1_SignInV2"
+            authority: "https://vidolin.b2clogin.com/vidolin.onmicrosoft.com/B2C_1_SignIn_v2"
         },
         resetPassword: {
-            authority: "https://vidolin.b2clogin.com/vidolin.onmicrosoft.com/b2c_1_reset"
+            authority: "https://vidolin.b2clogin.com/vidolin.onmicrosoft.com/B2C_1_PasswordReset_v2"
         }
     }
 }
