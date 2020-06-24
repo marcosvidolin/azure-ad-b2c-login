@@ -19,7 +19,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 
-	compile('com.microsoft.graph:microsoft-graph:1.2.+')
+	compile('com.microsoft.graph:microsoft-graph:1.8.+')
 	compile('com.microsoft.graph:microsoft-graph-auth:0.2.0-SNAPSHOT')
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {

@@ -12,7 +12,7 @@ import { apiConfig } from '../app-config';
 })
 export class ProfileComponent implements OnInit {
 
-  profile: any;
+  profile: any = { name: 'not set'};
 
   constructor(private broadcastService: BroadcastService, private authService: MsalService, private http: HttpClient) { }
 
@@ -21,7 +21,6 @@ export class ProfileComponent implements OnInit {
 
     this.broadcastService.subscribe('msal:acquireTokenSuccess', (payload) => {
       console.log('access token acquired at: ' + new Date().toString());
-      console.log(payload);
     });
 
     this.broadcastService.subscribe('msal:acquireTokenFailure', (payload) => {
